@@ -225,6 +225,11 @@ Potential improvements for production use:
 - Add more comprehensive error handling
 - Include unit and integration tests
 
+## 👨‍💻Author
+- ***ABDUL SABOOR***
+
+---
+
 ## License
 
 This project is created as a demonstration of modern React development practices.
