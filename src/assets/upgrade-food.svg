@@ -1,0 +1,5 @@
+<svg width="300" height="150" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="150" fill="#2C2C2C" rx="8"/>
+  <circle cx="150" cy="75" r="50" fill="#E96B4D" opacity="0.3"/>
+  <text x="150" y="85" text-anchor="middle" fill="#E96B4D" font-size="40">🍽️</text>
+</svg>

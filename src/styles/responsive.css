@@ -1,0 +1,192 @@
+@import './variables.css';
+
+/* Tablet */
+@media (max-width: 1199px) {
+  .app-container {
+    width: 98%;
+    margin: 20px auto;
+  }
+  
+  .kpi-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .main-analytics-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .category-card {
+    grid-column: span 2;
+  }
+  
+  .bottom-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile landscape */
+@media (max-width: 991px) {
+  #root {
+    padding: 10px;
+  }
+  
+  .app-container {
+    width: 100%;
+    margin: 0;
+    border-radius: 16px;
+    min-height: 100vh;
+  }
+  
+  .mobile-menu-btn {
+    display: flex;
+  }
+  
+  .header {
+    padding: 0 16px;
+  }
+  
+  .header-user {
+    display: none;
+  }
+  
+  .search-input {
+    width: 150px;
+  }
+  
+  .dashboard-content {
+    padding: 16px;
+    gap: 16px;
+  }
+  
+  .kpi-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .main-analytics-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .bottom-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .orders-table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .orders-table {
+    min-width: 500px;
+  }
+}
+
+/* Mobile portrait */
+@media (max-width: 576px) {
+  #root {
+    padding: 0;
+  }
+  
+  .app-container {
+    border-radius: 0;
+    min-height: 100vh;
+  }
+  
+  .header {
+    height: 60px;
+    padding: 0 12px;
+  }
+  
+  .header-title {
+    font-size: 18px;
+  }
+  
+  .search-input {
+    width: 120px;
+    font-size: 13px;
+  }
+  
+  .dashboard-content {
+    padding: 12px;
+    gap: 12px;
+  }
+  
+  .kpi-card {
+    padding: 16px;
+  }
+  
+  .kpi-card-value {
+    font-size: 28px;
+  }
+  
+  .income-chart-card,
+  .category-card,
+  .pos-card,
+  .orders-card,
+  .staff-card {
+    padding: 16px;
+  }
+  
+  .income-chart-header,
+  .orders-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .income-chart-toggle,
+  .orders-filter {
+    width: 100%;
+  }
+  
+  .income-chart-toggle-btn,
+  .orders-filter-btn {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .pos-stats {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .pos-donut {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .pos-donut-inner {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 375px) {
+  .header-title {
+    font-size: 16px;
+  }
+  
+  .search-input {
+    width: 100px;
+  }
+  
+  .kpi-card-value {
+    font-size: 24px;
+  }
+  
+  .income-chart-value {
+    font-size: 24px;
+  }
+  
+  .category-item,
+  .staff-item {
+    padding: 10px;
+  }
+}
