@@ -246,3 +246,5 @@ This project is created as a demonstration of modern React development practices
 ## Support
 
 For issues or questions about this project, please refer to the documentation or contact the development team.
+
+---
