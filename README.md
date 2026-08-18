@@ -239,7 +239,7 @@ This project is created as a demonstration of modern React development practices
 
 ---
 
-## `MADE WITH 💖
+## ***MADE WITH 💖***
 
 ---
 
