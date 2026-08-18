@@ -234,6 +234,11 @@ Potential improvements for production use:
 
 This project is created as a demonstration of modern React development practices.
 
+## Contributions
+- feel free to contribute in this project for future enhancements..
+
+---
+
 ## Support
 
 For issues or questions about this project, please refer to the documentation or contact the development team.
